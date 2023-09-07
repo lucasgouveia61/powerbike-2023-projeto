@@ -8,11 +8,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <title>PowerBike - Motos Elétricas</title>
   <meta name="description" content="Motos elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a PowerBike.">
 
   <link rel="preload" href="/css/style.css" as="style">
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -48,7 +52,7 @@
         <a href="/html/produtos.html">Escolha a sua</a>
       </div>
       <div class="introducao-imagem">
-        <img data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="foto-main" src="/img/motos-png/Group 2.png" alt="moto eletrica marron">
+        <img data-aos="fade-right" data-aos-offset="450" data-aos-easing="ease-in-sine" class="foto-main" src="/img/motos-png/Group 2.png" alt="moto eletrica marron">
       </div>
     </div>
   </main>
@@ -106,7 +110,7 @@
           </a>
         </li>
       </ul>
-      
+
     </div>
   </article>
   <section class="parceiros" aria-label="Nossos Parceiros">
@@ -184,7 +188,7 @@
     </div>
 
   </article>
-  <footer class="footer-bg">
+  <footer id="footer" class="footer-bg">
     <div class="footer">
       <img src="/img/fotos/logo-powerbike-branca.svg" alt="logo power bike">
       <div class="footer-contato">
@@ -237,25 +241,16 @@
 
 
 
-  <script>
-    function toggleMenu() {
-      const primaria = document.querySelector('.primaria');
-      primaria.classList.toggle('menu-open');
-    }
 
-    function closeMenu() {
-      const primaria = document.querySelector('.primaria');
-      primaria.classList.remove('menu-open');
-    }
-
-
-  </script>
 
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
   <script>
     AOS.init();
   </script>
+
   <script src="/js/script.js">
   </script>
 </body>
