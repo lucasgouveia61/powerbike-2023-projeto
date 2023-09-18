@@ -1,0 +1,90 @@
+
+
+.introducao-adeus-gasolina {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.introducao-adeus h1 {
+  color: #b2b2b2;
+  margin-top: 110px;
+  text-align: center;
+  font-size: 5.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+ 
+}
+
+.introducao-adeus p {
+  text-align: center;
+  font-size: 2rem;
+  color: #b2b2b2;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.introducao-adeus a {
+  display: inline-block;
+  text-align: center;
+  margin-top: 2px;
+  color: #fff;
+  text-decoration: none;
+  background: #c10e2f;
+  padding: 12px 36px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  
+}
+
+.introducao-adeus a:hover {
+  background: #b2b2b2;
+  color: #c10e2f;
+  transition: 0.5s;
+}
+
+.adeus-bg {
+  height: 910px;
+  margin: 0 auto;
+  background-image: url(/img/motos/moto-tanque-eletrico-modelo02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.introducao-adeus a {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+@media (max-width: 768px) {
+  .introducao-adeus-gasolina {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao-adeus h1 {
+    font-size: 40px;
+    margin-top: 70px;
+  }
+
+  .introducao-adeus p {
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 30px;
+  }
+ 
+  }
+  .introducao-adeus a {
+    margin-top: -50px;
+    margin-left: 50;
+    padding: 10px 10px;
+  }
+
+  .adeus-bg {
+    height: 500px;
+  }
+

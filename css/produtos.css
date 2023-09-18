@@ -1,0 +1,141 @@
+.header-termos a img {
+  height: 30px;
+  margin-left: 40px;
+  padding: 1%;
+  width: auto; /* Permitir que a largura da imagem seja ajustada automaticamente */
+}
+
+.produtos-bg {
+  background: #333;
+  color: #f2f2f2;
+}
+
+.produtos-bg ul {
+  color: #b2b2b2;
+}
+.produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url(/img/dec/bottom-right.svg) no-repeat bottom 60px right 190px;
+
+}
+.produtos li {
+  color: #333;
+  padding-top: 5px;
+}
+.produtos-saiba-mais a {
+ display: inline-block;
+  padding: 12px 36px;
+  color: #ffff;
+  background: #c10e2f;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.produtos-saiba-mais a:hover{
+  background: #b2b2b2;
+  color: #c10e2f;
+}
+.produtos-conteudo ul{
+  align-items: center;
+  padding-bottom: 15px;
+
+}
+.produtos-conteudo img  {
+  padding-right: 15px;
+  width: 40px;
+}
+.produtos-imagem {
+  position: relative;
+  padding-left: 50px;
+  }
+  .produtos-imagem .esgotado {
+    color: #f2f2f2;
+    background: #c10e2f;
+  }
+.produtos-imagem span {
+  background: #b2b2b2;
+  color: #c10e2f;
+  padding: 8px 16px 8px 8px;
+  position: absolute;
+  left: 473px;
+  border-radius: 5px 0 0 5px;
+}
+.produtos-imagem .esgotado {
+  position: absolute;
+  left: 438px;
+  border-radius: 5px 0 0 5px;
+}
+
+.produtos-conteudo h2 ,
+.produtos-conteudo p {
+  margin-bottom: 15px;
+}
+
+.produtos-capacete {
+  object-fit: cover;
+}
+
+.produtos-imagem .capacete-item {
+  color: #f2f2f2;
+  background: #c10e2f;
+left: 438px;
+}
+
+@media (max-width: 800px) {
+  .produtos{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .produtos-conteudo{
+    padding-left: 40px;
+  }
+  .titulo p {
+    font-size: 16px;
+  }
+  .titulo h1 {
+    font-size: 30px;
+  }
+  .produtos-conteudo h2  {
+  font-size: 25px;
+}
+.produtos-conteudo p  {
+  font-size: 16px;
+  max-width: 39ch;
+}
+.header-menu-termos {
+  display: flex;
+}
+}
+@media (max-width: 600px) {
+  .produtos{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .produtos-conteudo{
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .produtos a {
+    place-self: start;
+  }
+  .produtos-conteudo p  {
+    font-size: 16px;
+    max-width: 39ch;
+}
+}
+@media screen and (min-width: 1700px) {
+  .header img {
+    padding-left: 40px;
+    }
+}
