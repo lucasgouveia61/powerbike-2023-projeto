@@ -1,0 +1,119 @@
+/*Parte central do termos*/
+
+.termos-bg {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #222;
+  padding-left: 40px;
+}
+
+.termos-bg p {
+  color: #f1f1f1;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.termos {
+  display: grid;
+  align-items: center;
+padding-top: 30px;
+  padding-bottom: 60px;
+padding-left: 40px;
+max-width: 72ch;
+
+}
+.termos h2, h1 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.termos-bg h1 {
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+
+.header-bg-termos {
+  background: #000;
+}
+
+.header-termos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; /* Aumentando o espaçamento interno */
+}
+
+.header-menu-termos {
+  display: flex;
+  column-gap: 40px;
+  text-transform: uppercase;
+  align-items: center; /* Alinhar os itens verticalmente */
+}
+
+.header-menu-termos a {
+  color: #fff;
+  font-size: 16px;
+  position: relative; /* Adicionando position relative para fazer o efeito no ::after */
+  padding: 12px 16px; 
+}
+
+.header-termos a img {
+  height: 40px;
+  width: auto; /* Permitir que a largura da imagem seja ajustada automaticamente */
+}
+
+.header-menu-termos a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #ffff;
+  position: absolute;
+  bottom: 0; /* Alinhar o ::after na parte inferior do link */
+  left: 50%;
+  transform: translateX(-50%); /* Centralizar horizontalmente o ::after */
+  transition: all 0.6s;
+}
+
+.header-menu-termos a:hover {
+  color: #c10e2f;
+}
+
+.header-menu-termos a:hover::after {
+  width: 100%;
+}
+
+
+
+@media (max-width: 800px) {
+  .header-termos {
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+
+  .header-menu-termos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    gap: 40px;
+  }
+
+  .header-menu-termos a {
+    margin: 10px;
+    padding: 12px 10px;
+    font-size: 16px;
+    background:#333;
+    border-radius: 5px;
+  }
+}
+

@@ -1,0 +1,101 @@
+.contatos {
+  background: #f3f3f3;
+}
+
+.contatos{
+  display: flex;
+
+  
+}
+.contatos{
+background: linear-gradient(#444 150px, red);
+}
+.contato-dados,
+.contato-formulario  {
+  flex:1 ;
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 200px;
+}
+
+.contato-dados {
+ 
+margin: 80px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 200px;
+    
+}
+.contato-formulario {
+
+  margin: 80px;
+  height: 520px;
+  width: 600px;
+  }
+
+.contato-dados {
+  background: #222;
+  color: #f3f3f3;
+  border-radius: 5px 0 0 5px;
+}
+.contato-formulario{
+  background: #fff;
+  border-radius: 5px 5px ;
+}
+
+.contato-dados h2 {
+  margin-bottom: 50px;
+}
+
+.contatos-links a {
+  color: #b2b2b2;
+  display: flex;
+
+}
+.contato-endereco {
+  margin-bottom: 25px;
+  background: url(/img/icones/local.svg) no-repeat 0 2px; 
+  padding-left: 25px;
+}
+.contato-endereco p{
+  margin-bottom: 8px;
+
+}
+.contatos-links a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 8px;
+  padding-left: 25px;
+ 
+}
+.contatos-links a:hover{
+color: #fff;
+}
+.contatos-links a:first-child{
+  background: url(/img/icones/email.svg) no-repeat ;
+}
+
+.contatos-links a:nth-child(2){
+margin-bottom: 20px;
+}
+
+.contatos-links a:nth-child(3){
+background: url(/img/icones/telefone.svg) no-repeat;
+margin-bottom: 60px;
+}
+.contatos-redes {
+  display: flex;
+  gap: 32px;
+  padding-left: 28px;
+}
+
+@media (max-width: 800px){
+  .contatos {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -60px;
+  }
+  .contato-dados{
+    margin-bottom: -50px;
+  }
+
+}

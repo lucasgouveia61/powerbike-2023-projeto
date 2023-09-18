@@ -1,0 +1,60 @@
+/* header e introdução */
+@import "./main.css";
+@import "./header.css";
+
+/*pagina do site onde está o merchan da gasolina*/
+@import "./gasolina.css";
+/* pagina do site onde estão os produtos*/
+
+@import "./lista-motos.css";
+
+/* pagina do site onde estão todos parceiros da marca*/
+@import "./parceiros.css";
+
+/* pagina do site onde estão o depoimento do cliente*/
+@import "./depoimento.css";
+
+/* pagina do site onde está a parte do seguro*/
+@import "./seguros.css";
+
+/* parte do site onde está o rodapé da pagina*/
+@import "./footer.css";
+
+/* pagina do site onde estão os termos dos produtos*/
+@import "./termos.css";
+
+/* pagina do site onde estão as motos e produtos*/
+@import "./produtos.css";
+
+@import "./global.css";
+
+@import "./vantagens.css";
+@import "./perguntas.css";
+
+/*paginas dos produtos*/
+
+@import "./extreme.css";
+@import "./magic.css";
+@import "./patinetes.css";
+@import "./acessorios.css";
+@import "./contato.css";
+@import "./lojas.css";
+@import "./formulario.css";
+@import "./orcamento.css";
+
+body {
+  margin: 0 ;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
