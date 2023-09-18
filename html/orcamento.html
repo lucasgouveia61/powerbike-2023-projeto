@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orçamentos | PowerBike - Motos Elétricas</title>
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="stylesheet" href="../css/style.css">
+  <header class="header-bg-termos">
+    <div class="header-termos">
+      <a href="/html/index.html"><img src="/img/fotos/logo-powerbike-branca.svg" alt="Logotipo PowerBike"></a>
+
+      <nav>
+        <ul class="header-menu-termos">
+          <li><a href="/html/produtos.html">Produtos</a></li>
+          <li><a href="/html/seguros.html">Seguros</a></li>
+
+
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+  <main>
+    <div class="termos-bg">
+      <div class="titulo container">
+        <p>COTAÇÕES NO SEU EMAIL</p>
+        <h1>solicite um orçamento</h1>
+      </div>
+
+    </div>
+  </main>
+
+  <form class="orcamento container" action="./">
+    <div class="orcamento-produto">
+      <h2>PowerBike ou Seguro?</h2>
+
+      <input type="radio" name="tipo" value="powerbike" id="powerbike">
+      <label for="powerbike">Powerbike</label>
+
+      <input type="radio" name="tipo" value="seguro" id="seguro">
+      <label for="seguro">Seguro</label>
+
+      <div class="orcamento-conteudo" id="orcamento-powerbike">
+        <h2 class="titulo-orcamento">Escolha a sua</h2>
+        <input type="radio" name="produto" value="extreme" id="extreme">
+        <label for="extreme">Extreme Home <span>
+            R$ 19.999
+          </span></label>
+        <div class="orcamento-detalhes">
+          <ul>
+            <li><img src="/img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+            <li><img src="/img/icones/rastreador.svg" alt="">Rastreador</li>
+            <li><img src="/img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+            <li><img src="/img/icones/velocidade.svg" alt="">170 KM</li>
+          </ul>
+          <img class="img-orcamento" src="/img/motos/moto-modelo02-exclusiva.jpg" alt="moto parada">
+        </div>
+
+        <input type="radio" name="produto" value="magic" id="magic">
+        <label for="magic">Magic Home <span>
+            R$ 15.999
+          </span></label>
+        <div class="orcamento-detalhes">
+          <ul>
+            <li><img src="/img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+            <li><img src="/img/icones/rastreador.svg" alt="">Rastreador</li>
+            <li><img src="/img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+            <li><img src="/img/icones/velocidade.svg" alt="">170 KM</li>
+          </ul>
+          <img class="img-orcamento" src="/img/motos/moto-modelo01-basica.jpg" alt="moto parada">
+        </div>
+
+
+        <input type="radio" name="produto" value="patinete" id="patinete">
+        <label for="patinete">Patinete <span>
+            R$ 999
+          </span></label>
+        <div class="orcamento-detalhes">
+          <ul>
+            <li><img src="/img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+            <li><img src="/img/icones/rastreador.svg" alt="">Rastreador</li>
+            <li><img src="/img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+            <li><img src="/img/icones/velocidade.svg" alt="">170 KM</li>
+          </ul>
+          <img class="img-orcamento" src="/img/motos/patinete-eletrico (1).jpg" alt="moto parada">
+        </div>
+
+      </div>
+      <div class="orcamento-conteudo" id="orcamento-seguro">
+        <h2 class="titulo-orcamento">Escolha o plano</h2>
+      </div>
+      <input type="radio" name="produto" value="prata" id="prata">
+      <label for="prata">Prata <span>
+          R$ 199
+        </span></label>
+      <input type="radio" name="produto" value="ouro" id="ouro">
+      <label for="ouro">Ouro <span>
+          R$ 299
+        </span></label>
+
+    </div>
+    <div class="orcamento-dados form">
+      <h2 class="col-2">Dados Pessoais</h2>
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+      </div>
+      <div>
+        <label for="nome">CPF</label>
+        <input type="text" name="cpf" id="cpf" placeholder="000.000.00.-00">
+      </div>
+      <div>
+        <label for="nome">Email</label>
+        <input type="text" name="email" id="email">
+      </div>
+      <div>
+        <label for="nome">Telefone</label>
+        <input type="text" name="telefone" id="telefone" placeholder="(61) 9999-9999">
+      </div>
+
+      <h2 class="col-2"> Entrega</h2>
+      <div>
+        <label for="nome">CEP</label>
+        <input type="text" name="cep" id="cep">
+      </div>
+      <div>
+        <label for="nome">Número</label>
+        <input type="text" name="numero" id="numero">
+      </div>
+      <div>
+        <label for="nome">Bairro</label>
+        <input type="text" name="bairro" id="bairro">
+      </div>
+      <div>
+        <label for="nome">Cidade</label>
+        <input type="text" name="cidade" id="cidade">
+      </div>
+      <div>
+        <label for="nome">Estado</label>
+        <input type="text" name="estado" id="estado">
+      </div>
+
+      <button class="botao-orcamento">Solicitar Orçamento</button>
+
+
+
+    </div>
+
+  </form>
+  <footer class="footer-bg">
+    <div class="footer">
+      <img src="/img/fotos/logo-powerbike-branca.svg" alt="logo power bike">
+      <div class="footer-contato">
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="tel:+556199999999">+55 61 9999-9999</a></li>
+          <li><a href="mailto:contato@powerbike.com">contato@powerbike.com</a></li>
+          <li>Cnb 10 Loja 02 , Taguatinga Norte</li>
+          <li>Brasília</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="">
+            <img src="/img/redes-sociais/instagram.svg" alt="Instagram">
+          </a>
+          <a href="">
+            <img src="/img/redes-sociais/facebook.svg" alt="Facebook">
+          </a>
+          <a href="">
+            <img src="/img/redes-sociais/youtube.svg" alt="Youtube">
+          </a>
+
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3>Informaçôes</h3>
+        <nav>
+          <ul>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#seguros">Seguros</a></li>
+            <li><a href="./contatos.html">Contatos</a></li>
+            <li><a href="./whatsapp.html">Whatsapp</a></li>
+            <li><a href="./termos.html">Termos e Condições</a></li>
+          </ul>
+        </nav>
+
+
+      </div>
+      <p class="footer-copy">PowerBike Alguns diretiros reservados.</p>
+    </div>
+
+  </footer>
+
+
+  <script src="/js/script.js">
+  </script>
+</body>
+
+</html>
